@@ -74,6 +74,12 @@ async function handleLogout() {
     Login
   </Link>
 )}
+<Link
+  to="/profile"
+  className="hover:text-purple-400 transition"
+>
+  Profile
+</Link>
     </nav>
   );
 }
