@@ -1,45 +1,91 @@
-<div align="center">
-
 # 🚀 NOVAS OS
 
-### A Modern Productivity Web Application
+> A modern productivity web application built with **React.js**, **Tailwind CSS**, and **Appwrite**.
 
-Manage your Notes, Tasks and Daily Productivity in one place.
-
-Built with **React + Tailwind CSS + Appwrite**
-
-</div>
+Manage your **Notes**, **Tasks**, and **Daily Productivity** in one beautiful dashboard.
 
 ---
 
-## ✨ Features
+# 🌐 Live Demo
 
-### 🔐 Authentication
+🔗 https://novas-os.vercel.app
+
+---
+
+# 📸 Project Screenshots
+
+## 🔐 Login Page
+
+![Login](assets/screenshots/login.png)
+
+---
+
+## 📊 Dashboard
+
+![Dashboard](assets/screenshots/dashboard.png)
+
+---
+
+## 📝 Notes
+
+![Notes](assets/screenshots/notes.png)
+
+---
+
+## ✅ Tasks
+
+![Tasks](assets/screenshots/tasks.png)
+
+---
+
+## 👤 Profile
+
+![Profile](assets/screenshots/profile.png)
+
+---
+
+# ✨ Features
+
+## 🔐 Authentication
+
 - User Signup
 - User Login
 - Secure Logout
+- Session Management using Appwrite
 
-### 📝 Notes
+---
+
+## 📝 Notes
+
 - Create Notes
 - Search Notes
 - Delete Notes
-- Live Appwrite Database
+- Live Database
 
-### ✅ Tasks
+---
+
+## ✅ Tasks
+
 - Add Tasks
 - Complete / Undo Tasks
 - Delete Tasks
 - Live Task Status
 
-### 📊 Dashboard
-- Live Notes Counter
-- Live Tasks Counter
-- Completed Tasks Counter
-- Pending Tasks Counter
+---
+
+## 📊 Dashboard
+
+- Total Notes
+- Total Tasks
+- Completed Tasks
+- Pending Tasks
 - Recent Notes
 - Today's Tasks
 
-### 👤 Profile
+---
+
+## 👤 User Profile
+
 - User Name
 - Email
 - User ID
@@ -50,13 +96,23 @@ Built with **React + Tailwind CSS + Appwrite**
 
 # 🛠 Tech Stack
 
-| Frontend | Backend | Database |
-|----------|----------|----------|
-| React.js | Appwrite | Appwrite Database |
-| Tailwind CSS | Appwrite Auth | Appwrite Tables |
-| React Router |  |  |
-| Lucide React |  |  |
-| Vite |  |  |
+## Frontend
+
+- React.js
+- Tailwind CSS
+- React Router DOM
+- Lucide React
+- Vite
+
+## Backend
+
+- Appwrite Authentication
+- Appwrite Database
+- Appwrite TablesDB
+
+## Deployment
+
+- Vercel
 
 ---
 
@@ -67,6 +123,7 @@ src
 │
 ├── appwrite
 ├── assets
+│
 ├── components
 │   ├── dashboard
 │   ├── layout
@@ -74,6 +131,7 @@ src
 │
 ├── pages
 │   ├── Dashboard
+│   ├── Home
 │   ├── Login
 │   ├── Notes
 │   ├── Profile
@@ -86,65 +144,44 @@ src
 
 ---
 
-# 🚀 Installation
-
-Clone the repository
+# ⚙️ Installation
 
 ```bash
 git clone https://github.com/Tulsimeena123/NOVAS-OS.git
-```
 
-Install dependencies
+cd NOVAS-OS
 
-```bash
 npm install
-```
 
-Start development server
-
-```bash
 npm run dev
 ```
 
 ---
 
-# 📸 Screenshots
+# 🔮 Future Improvements
 
-> Screenshots will be added soon.
-
----
-
-# 🔮 Future Plans (Version 2)
-
-- 📷 Profile Picture Upload
-- ✏️ Edit Profile
-- 📝 User Bio
-- 📍 College & Role
-- 🌐 GitHub & LinkedIn Links
-- 🌙 Dark / Light Theme
-- ⭐ Favorite Notes
-- 📌 Pin Notes
-- 📅 Due Dates
-- ⏰ Reminders
-- 📊 Analytics Dashboard
-- 🤖 AI Features
+- AI Notes Generator
+- AI Task Suggestions
+- Dark / Light Theme
+- Notes Categories
+- Due Dates
+- Reminder Notifications
+- Calendar Integration
+- Mobile Responsive Improvements
 
 ---
 
-# 👩‍💻 Developer
+# 👩‍💻 Author
 
 **Tulsi Meena**
 
-🎓 B.Tech (AIDE) – IIIT Kota
-
-💙 Passionate about Full Stack Development
+GitHub:
+https://github.com/Tulsimeena123
 
 ---
 
-<div align="center">
+# ⭐ Support
 
-⭐ If you like this project, don't forget to star the repository!
+If you like this project, don't forget to ⭐ Star the repository.
 
-Made with ❤️ using React & Appwrite
-
-</div>
+It motivates me to build more awesome projects ❤️
