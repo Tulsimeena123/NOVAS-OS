@@ -8,41 +8,11 @@ Manage your **Notes**, **Tasks**, and **Daily Productivity** in one beautiful da
 
 # 🌐 Live Demo
 
-🔗 https://novas-os.vercel.app
+🔗 **Live Demo:** https://novas-os.vercel.app
 
----
+**GitHub Repository:**  
+https://github.com/Tulsimeena123/NOVAS-OS
 
-# 📸 Project Screenshots
-
-## 🔐 Login Page
-
-![Login](assets/screenshots/login.png)
-
----
-
-## 📊 Dashboard
-
-![Dashboard](assets/screenshots/dashboard.png)
-
----
-
-## 📝 Notes
-
-![Notes](assets/screenshots/notes.png)
-
----
-
-## ✅ Tasks
-
-![Tasks](assets/screenshots/tasks.png)
-
----
-
-## 👤 Profile
-
-![Profile](assets/screenshots/profile.png)
-
----
 
 # ✨ Features
 
@@ -104,11 +74,11 @@ Manage your **Notes**, **Tasks**, and **Daily Productivity** in one beautiful da
 - Lucide React
 - Vite
 
-## Backend
+## Backend & Services
 
 - Appwrite Authentication
-- Appwrite Database
 - Appwrite TablesDB
+- Appwrite Account API
 
 ## Deployment
 
@@ -170,13 +140,13 @@ npm run dev
 - Mobile Responsive Improvements
 
 ---
-
 # 👩‍💻 Author
 
 **Tulsi Meena**
 
-GitHub:
-https://github.com/Tulsimeena123
+🎓 B.Tech (AIDE) | IIIT Kota
+
+GitHub: https://github.com/Tulsimeena123
 
 ---
 
@@ -184,4 +154,6 @@ https://github.com/Tulsimeena123
 
 If you like this project, don't forget to ⭐ Star the repository.
 
-It motivates me to build more awesome projects ❤️
+Thank you for visiting this repository! ⭐
+
+If you found this project helpful, consider giving it a star.
