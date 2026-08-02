@@ -40,7 +40,7 @@ export const logoutAccount = async () => {
 export const getCurrentUser = async () => {
   try {
     return await account.get();
-  } catch (error) {
+  } catch {
     return null;
   }
 };

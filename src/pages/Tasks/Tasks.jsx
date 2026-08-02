@@ -77,8 +77,8 @@ useEffect(() => {
     <>
       <Navbar />
 
-      <div className="min-h-screen bg-slate-950 px-8 py-10">
-        <div className="mx-auto max-w-6xl">
+      <div className=" min-w-8xl  min-h-screen bg-slate-950 px-8 py-10">
+        <div className="mx-auto max-w-8xl">
 
           <div className="mb-10 flex items-center justify-between">
             <div>

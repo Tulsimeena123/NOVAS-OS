@@ -27,25 +27,25 @@ function Features() {
   ];
 
   return (
-    <section className="px-6 py-16">
-      <div className="mx-auto max-w-7xl">
+    <section className="flex justify-center py-24 px-6">
+      <div className="mx-auto flex max-w-7xl flex-col items-center">
 
-        <h2 className="text-center text-4xl font-bold text-white">
-          Everything You Need
-        </h2>
+        {/* Heading */}
+        <div className="mx-auto max-w-3xl text-center">
+<h2 className="w-full text-center text-4xl font-extrabold text-white md:text-5xl">            Everything You Need
+          </h2>
 
-        <p className="mx-auto mt-4 max-w-2xl text-center text-slate-400">
-          Everything required to manage your notes, tasks and productivity in
-          one modern workspace.
-        </p>
+<p className="mt-5 w-full max-w-3xl text-center text-lg leading-8 text-slate-400">            Everything required to manage your notes, tasks and productivity
+            inside one modern workspace.
+          </p>
+        </div>
 
-        <div className="mt-14 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-          {features.map((feature) => (
+        {/* Cards */}
+<div className="mx-auto mt-16 grid w-full max-w-6xl grid-cols-1 justify-items-center gap-8 md:grid-cols-2 xl:grid-cols-3">          {features.map((feature) => (
             <div
               key={feature.title}
-              className="group flex min-h-[280px] flex-col rounded-3xl border border-slate-700 bg-slate-900/70 p-8 backdrop-blur-md transition-all duration-300 hover:-translate-y-3 hover:border-purple-500 hover:shadow-[0_0_40px_rgba(168,85,247,0.25)]"
-            >
-              <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-purple-500/10 text-purple-400 transition group-hover:bg-purple-500 group-hover:text-white">
+              className="mx-auto flex h-[340px] w-full max-w-[350px] flex-col items-center justify-between rounded-3xl border border-slate-700 bg-slate-900/70 p-8 text-center transition-all duration-300 hover:-translate-y-3 hover:border-purple-500 hover:shadow-[0_0_45px_rgba(168,85,247,0.25)]">
+              <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-purple-500/10 text-purple-400">
                 {feature.icon}
               </div>
 
@@ -57,11 +57,12 @@ function Features() {
                 {feature.description}
               </p>
 
-              <button className="mt-auto pt-8 text-left font-semibold text-purple-400 transition hover:text-purple-300">
+              <button className="mt-8 rounded-xl border border-purple-500/30 px-5 py-2 font-semibold text-purple-400 transition hover:bg-purple-500 hover:text-white">
                 Learn More →
               </button>
             </div>
           ))}
+
         </div>
 
       </div>

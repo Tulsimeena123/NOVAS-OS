@@ -2,10 +2,15 @@ function Button({ children }) {
   return (
     <button
       className="
+      inline-flex
+      items-center
+      justify-center
+      min-w-[170px]
       rounded-xl
       bg-purple-600
-      px-7
+      px-8
       py-3
+      text-base
       font-semibold
       text-white
       transition-all
